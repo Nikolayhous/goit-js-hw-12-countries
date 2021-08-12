@@ -1,0 +1,15 @@
+.input__search--countries {
+  display: block;
+  padding: 10px 0;
+  margin-top: 150px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: 2px solid rgb(228, 13, 13);
+}
+
+.input__search--countries::placeholder {
+  font-size: 10px;
+  color: rgb(245, 32, 32);
+}
