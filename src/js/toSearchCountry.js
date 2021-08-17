@@ -4,14 +4,8 @@ import cardCountryEl from '../templates/countriesCard.hbs';
 import listCountryEl from '../templates/listOfCountries.hbs';
 
 import { error } from '@pnotify/core'
-import '@pnotify/core/dist/PNotify.css';
-import '@pnotify/desktop/dist/PNotifyDesktop';
 import '@pnotify/core/dist/BrightTheme.css';
 
-// import '@pnotify/core/dist/Material.css';
-
-// import { defaults } from '@pnotify/core';
-// defaults.styling = 'material';
 
 
 var debounce = require('lodash.debounce');
