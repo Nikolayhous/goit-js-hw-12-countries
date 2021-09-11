@@ -9,7 +9,7 @@ import '@pnotify/core/dist/BrightTheme.css';
 
 
 var debounce = require('lodash.debounce');
-refs.input.addEventListener('input', debounce(toSearchCountry, 500));
+refs.input.addEventListener('input', debounce(toSearchCountry, 1000));
 
 function toSearchCountry() {
     InputClear();
@@ -50,6 +50,7 @@ function toSearchCountry() {
     refs.listOfCountries.innerHTML = '';
     refs.cardsCountries.innerHTML = '';
   }
+  
   function FetchError(Error) {
     Error;
   }
